@@ -82,7 +82,7 @@ public class Bot {
                             )
                     );
         } else if (inlineQuery != null) {
-            InlineQueryResultArticle stone = buildButton("stone", "\uD83D\uDDFF Камень", "0");
+            InlineQueryResultArticle stone = buildButton("rock", "\uD83D\uDDFF Камень", "0");
             InlineQueryResultArticle scissors = buildButton("scissors", "✂ Ножницы", "1");
             InlineQueryResultArticle paper = buildButton("paper", "\uD83D\uDCC3 Бумага", "2");
 
